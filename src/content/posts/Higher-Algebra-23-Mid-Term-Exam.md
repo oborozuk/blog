@@ -132,7 +132,7 @@ $$
 
 ## 答案
 $$
-d_n = (1 + (-1)^{n-1} \prod_{i=1}^n \frac1{a_i}) \prod_{1 \le i \lt j \le n}(a_i - a_j) \,.
+d_n = (1 + (-1)^{n-1} \prod_{i=1}^n \frac1{a_i}) \prod_{1 \le i \lt j \le n}(a_j - a_i) \,.
 $$
 
 ## 解析
@@ -142,34 +142,20 @@ $$
 ## 题目
 求向量组
 $$
-\alpha_1 = \begin{pmatrix} 2 \\
-1 \\
-4 \\
-3
+\alpha_1 = \begin{pmatrix}
+2 \\ 1 \\ 4 \\ 3
 \end{pmatrix},
 \alpha_2 = \begin{pmatrix}
--1 \\
-1 \\
--6 \\
-6
+-1 \\ 1 \\ -6 \\ 6
 \end{pmatrix},
 \alpha_3 = \begin{pmatrix}
--1 \\
--2 \\
-2 \\
--9
+-1 \\ -2 \\ 2 \\ -9
 \end{pmatrix},
 \alpha_4 = \begin{pmatrix}
-1 \\
-1 \\
--2 \\
-7
+1 \\ 1 \\ -2 \\ 7
 \end{pmatrix},
 \alpha_5 = \begin{pmatrix}
-2 \\
-4 \\
-4 \\
-9
+2 \\ 4 \\ 4 \\ 9
 \end{pmatrix}
 $$
 的一个极大线性无关组，并把其余向量用这个极大无关组线性表出.
