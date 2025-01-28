@@ -11,8 +11,8 @@ draft: false
 
 **建议使用电脑访问**
 
-# 第一题
-## 题目
+## 第一题
+### 题目
 对
 $$
 \begin{align*}
@@ -25,7 +25,7 @@ $$
 (f(x), g(x)) = u(x)f(x) + v(x)g(x) \,.
 $$
 
-## 答案
+### 答案
 $$
 \begin{align*}
 (f(x), g(x)) &= x + 2 \,, \\
@@ -34,7 +34,7 @@ v(x) &= - \frac12 x^2 - \frac12 x + \frac32 \,.
 \end{align*}
 $$
 
-## 解析
+### 解析
 使用辗转相除法.
 
 $$
@@ -60,11 +60,11 @@ $$
 (f(x), g(x)) = u(x)f(x) + v(x)g(x) \,.
 $$
 
-# 第二题
-## 题目
+## 第二题
+### 题目
 将多项式 $x^8 - 1$ 分别在有理数域、实数域、复数域上因式分解.
 
-## 答案
+### 答案
 有理数域：
 $$
 x^8 - 1 = (x - 1)(x + 1)(x^2 + 1)(x^4 + 1)
@@ -81,8 +81,8 @@ x^8 - 1 = &(x - 1)(x + 1)(x - i)(x + i)(x - \frac{\sqrt2}{2} - \frac{\sqrt2}{2} 
 \end{align*}
 $$
 
-# 第三题
-## 题目
+## 第三题
+### 题目
 计算行列式的值：
 
 1) 
@@ -106,11 +106,11 @@ $$
    \end{vmatrix}
    $$
 
-## 答案
+### 答案
 1. $0$
 2. $(3 n - 2) (n - 2)^{n - 1}$
 
-## 解析
+### 解析
 1) 
    $$
    \begin{align*}
@@ -186,8 +186,8 @@ $$
    \end{align*}
    $$
 
-# 第四题
-## 题目
+## 第四题
+### 题目
 求线性方程组的通解：
 $$
 \begin{equation*}
@@ -201,7 +201,7 @@ $$
 \end{equation*} \,.
 $$
 
-## 答案
+### 答案
 通解为
 $$
 \begin{pmatrix}
@@ -218,7 +218,7 @@ $$
 $$
 其中 $k_1, k_2$ 为任意常数.
 
-## 解析
+### 解析
 $$
 \overline{A} = 
 \begin{pmatrix}
@@ -295,15 +295,15 @@ $$
 $$
 其中 $k_1, k_2$ 为任意常数.
 
-# 第五题
-## 题目
+## 第五题
+### 题目
 已知向量组 $\alpha_1, \alpha_2, \cdots, \alpha_r, \beta$ 的秩为 $r$，向量组 $\alpha_1, \alpha_2, \cdots, \alpha_r, \gamma$ 的秩为 $r + 1$.
 
 证明：
 1) $\beta$ 能由 $\alpha_1, \alpha_2, \cdots, \alpha_r$ 唯一线性表出；
 2) 向量组 $\alpha_1, \alpha_2, \cdots, \alpha_r, \gamma - \beta$ 线性无关.
 
-## 答案
+### 答案
 1) 因为向量组 $\alpha_1, \alpha_2, \cdots, \alpha_r, \gamma$ 的秩为 $r + 1$，所以向量组 $\alpha_1, \alpha_2, \cdots, \alpha_r, \gamma$ 线性无关，于是 $\alpha_1, \alpha_2, \cdots, \alpha_r, \gamma$ 线性无关.
 
    因为向量组 $\alpha_1, \alpha_2, \cdots, \alpha_r, \beta$ 的秩为 $r$， $\alpha_1, \alpha_2, \cdots, \alpha_r, \gamma$ 线性相关，所以 $\gamma$ 可以由这个向量组的极大线性无关组 $\alpha_1, \alpha_2, \cdots, \alpha_r$ 线性表出.
@@ -315,8 +315,8 @@ $$
    
    因为 $\alpha_1, \alpha_2, \cdots, \alpha_r, \gamma$ 线性无关，所以 $k_1 - k_{r+1} l_1 = k_2 - k_{r+1} l_2 = \cdots = k_r - k_{r+1} l_r = k_{r+1} = 0$，即 $k_1 = k_2 = \cdots = k_r = k_{r+1} = 0$，这与 $k_1, k_2, \cdots, k_r, k_{r+1}$ 不全为 $0$ 矛盾，所以 $\alpha_1, \alpha_2, \cdots, \alpha_r, \gamma - \beta$ 线性无关.
 
-# 第六题
-## 题目
+## 第六题
+### 题目
 已知向量
 $$
 \alpha_1 = \begin{pmatrix}
@@ -334,7 +334,7 @@ $$
 $$
 求向量组的一个极大线性无关组，并用它表出剩下的向量.
 
-## 答案
+### 答案
 一个极大线性无关组为
 $$
 \alpha_1, \alpha_2, \alpha_4
@@ -344,7 +344,7 @@ $$
 \alpha_3 = 2 \alpha_1 + \alpha_2
 $$
 
-## 解析
+### 解析
 $$
 \begin{pmatrix}
 1 & 0 & 2 & 2 \\
@@ -371,14 +371,14 @@ $$
 \end{pmatrix}
 $$
 
-# 第七题
-## 题目
+## 第七题
+### 题目
 已知 $M = \begin{pmatrix}A & B \\ C & D \end{pmatrix}$，且 $A$ 可逆，证明：
 $$
 r(M) = r(A) + r(D - CA^{-1}B) \,.
 $$
 
-## 答案
+### 答案
 对 $M$ 做初等变换，得到
 $$
 \begin{pmatrix}A & B \\ C & D \end{pmatrix}
@@ -389,13 +389,14 @@ $$
 $$
 所以 $r(M) = r(A) + r(D - CA^{-1}B)$.
 
-# 第八题
-## 题目
+## 第八题
+### 题目
 1) 已知 $A, B$ 为 $n$ 阶可逆矩阵，证明：$(AB)^* = B^* A^*$；
 2) 若 $A, B$ 不全可逆，上述结论成立吗？（不需要写出证明）
 
-## 答案
+### 答案
 1) 
+   因为 $A, B$ 可逆，所以 $|AB| = |A| |B| \neq 0$，所以 $AB$ 可逆.
    $$
    (AB)^* = |AB| (AB)^{-1} = |A| |B| B^{-1} A^{-1} = B^* A^* \,,
    $$
